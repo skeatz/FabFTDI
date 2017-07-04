@@ -1,4 +1,4 @@
-##FabFTDI - ATmega8
+## FabFTDI - ATmega8
 
 * ATmega8A-AU based Fab FTDI
 * tested up to:
@@ -7,7 +7,7 @@
 * uses V-USB library
   * AVR-CDC from [Recursion.jp](http://www.recursion.jp/prose/avrcdc/)
 
-##Schematic & Board Layout
+## Schematic & Board Layout
 
 ![FabFTDI-mega8 schematic](images/fabftdi-mega8-01.png)
 
@@ -25,7 +25,7 @@ Mill and stuff the PCB.
 
 ![FabFTDI board after stuffing](images/fabftdi-mega8-04.png)
 
-##Programming the Fab FTDI board
+## Programming the Fab FTDI board
 
 Unlike the CH340g-based FabFTDI, the ATmega8-based FabFTDI board uses the V-USB software library to implement USB-to-TTL conversion, i.e. it has to be programmed with the correct firmware before it can be used.
 
@@ -41,7 +41,7 @@ If you have managed to successfully flash the firmware onto the FabFTDI-mega8 bo
 
 ![Flashing the firmware](images/fabftdi-mega8-05.png)
 
-##Testing the Board
+## Testing the Board
 
 Plug the FabFTDI-mega8 board into your computer's USB port. Your computer should recognise the FabFTDI-mega8 board directly, as it implements the HIDinterface protocol.
 
@@ -64,7 +64,7 @@ You can substitute the ATmega8A-AU with the ATmega328p-AU as the 2 devices are p
 
 Good luck and have fun with your FabFTDI board!
 
-##Files
+## Files
 
 [Eagle Schematic](files/mega8/fabftdi-mega8.sch)
 
