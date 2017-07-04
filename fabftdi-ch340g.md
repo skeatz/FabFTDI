@@ -51,4 +51,5 @@ Good luck and have fun with your FabFTDI board!
 [Eagle PCB layout](files/ch340g/fabftdi-ch340g.brd)
 
 *Copyright (c) 2017-Steven Chew*
+
 *MIT license*
