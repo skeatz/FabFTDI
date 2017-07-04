@@ -48,7 +48,7 @@ Plug the FabFTDI-mega8 board into your computer's USB port. Your computer should
 On Windows machines, look for the COMport under Control Panel > System > Device Manager. On Linux or OSX machines, type the commands:
 ```
 lsusb
-ls /dev/ttyU*
+ls /dev/ttyACM*
 ```
 The FabFTDI-mega8 should appear as ***ID 16c0:05e1 Van Ooijen Technische Informatica Free shared USB VID/PID pair for CDC devices*** and ***/dev/ttyACM0***
 
