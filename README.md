@@ -1,6 +1,6 @@
 # FabFTDI Projects
 This repository contains all my FabFTDI projects:
-1. **CH340G-based FabFTDI**
+1. **[CH340G-based FabFTDI](fabftdi-ch340g.md)**
    * speeds up to 2 Mbps (loopback)
    * uses hardware USB-to-TTL chip
    * low cost (USD0.40 per IC for 10 pcs)
