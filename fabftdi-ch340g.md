@@ -1,11 +1,13 @@
-##Fab FTDI (CH340g)
+## Fab FTDI (CH340g)
+
 * CH340g-based Fab FTDI
 * tested up to:
   * 2 Mbps on loopback
   * 115200 bps with esp8266
 * RTS/CTS flow control
 
-##Schematic & Board Layout
+## Schematic & Board Layout
+
 ![FabFTDI-CH340g Schematic](images/fabftdi-ch340g-01.png)
 
 JP1 allows selection of 5V or 3.6V supply for FTDI interface
@@ -16,7 +18,8 @@ Mill and stuff the PCB.
 
 ![PCB after stuffing](images/fabftdi-ch340g-03.png)
 
-##Testing the Board
+## Testing the Board
+
 Plug the FabFTDI-CH340g board into your computer's USB port. On a Windows machine, look for the COMport under Control Panel > System > Device Manager. You may need to install the CH340g driver. A signed driver can be downloaded here --> [CH340g driver](http://www.arduined.eu/files/CH341SER.zip). If you need help in installing the CH340g driver, you can refer to this [article](http://www.arduined.eu/ch340g-converter-windows-7-driver-download/).
 
 Linux PCs and MacBooks should be able to detect the FabFTDI board without any driver. To check the device port:
@@ -41,7 +44,11 @@ As stated at the start of this tutorial, I have tested the board up to 2 Mbps on
 
 Good luck and have fun with your FabFTDI board!
 
-##Files
+## Files
+
 [Eagle Schematic](files/ch340g/fabftdi-ch340g.sch)
 
 [Eagle PCB layout](files/ch340g/fabftdi-ch340g.brd)
+
+*Copyright (c) 2017-Steven Chew*
+*MIT license*
