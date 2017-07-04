@@ -3,7 +3,7 @@
 * CH340g-based Fab FTDI
 * tested up to:
   * 2 Mbps on loopback
-  * 115200 bps with esp8266
+  * 250000 bps with esp8266
 * RTS/CTS flow control
 
 ## Schematic & Board Layout
@@ -34,9 +34,9 @@ should display the device port.
 
 ![Detecting FabFTDI device port](images/fabftdi-ch340g-04.png)
 
-To perform loopback test on the board, jumper the TXD and RXD pins. Open your favorite terminal software, e.g. Arduino IDE or picocom. Select the device port.
+To perform loopback test on the board, jumper the TXD and RXD pins. Open your favorite terminal emulation software, e.g. Arduino IDE or picocom. Select the device port.
 
-E.g. for Arduino IDE on Linux, select Tools > Port > /dev/ttyUSB0. Click Serial Monitor (**Ctrl+Shift+M**). Select *Both NL & CR*. Select the desired baud rate. Type a message on the input window and press **Enter** or click the **Send** button. You should see the message appearing on the received data window.
+E.g. for Arduino IDE on Linux, select Tools > Port > /dev/ttyUSB0. Click Serial Monitor (**Ctrl+Shift+M**). Select *Both NL & CR*. Select the desired baud rate. Type a message on the transmit window and press **Enter** or click the **Send** button. You should see the message appearing on the received data window.
 
 ![Loopback test](images/fabftdi-ch340g-05.png)
 
