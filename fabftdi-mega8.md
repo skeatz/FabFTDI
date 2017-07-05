@@ -73,3 +73,7 @@ Good luck and have fun with your FabFTDI board!
 [FabFTDI-mega8 firmware (12MHz crystal)](files/mega8/cdcmega8.hex)
 
 [Firmware for ATmega328p (12MHz crystal)](files/mega8/cdcmega328p.hex)
+
+*Copyright (c) Steven Chew*...
+
+*MIT license*
