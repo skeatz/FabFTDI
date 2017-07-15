@@ -41,7 +41,7 @@ Download the [FabFTDI-t2313 firmware](files/tiny2313/cdc2313.hex).
 
 Flash the firmware onto the FabFTDI-t2313 board using avrdude:
 
-`avrdude -c usbtiny -p t2313 -U flash:w:cdctiny2313.hex -U lfuse:w:0xff:m -U hfuse:w:0xcd:m`
+`avrdude -c usbtiny -p t2313 -U flash:w:cdc2313.hex -U lfuse:w:0xff:m -U hfuse:w:0xcd:m`
 
 ![Flashing the firmware](images/fabftdi-t2313_05.png)
 
