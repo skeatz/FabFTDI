@@ -27,10 +27,10 @@ The table below (from **recursion.jp**) lists the specifications for AVR-CDC wit
    * tested up to 250 kbps with ESP8266 module
    * uses hardware USB-to-TTL chip
    * low cost (USD0.40 per IC for 10 pcs)
-2. **[ATtiny45-based FabFTDI](fabftdi-tiny45)**
+2. **[ATtiny45-based FabFTDI](fabftdi-tiny45.md)**
    * speeds up to 4800 bps
    * uses V-USB library
-3. **[ATtiny2313-based FabFTDI](fabftdi-tiny2313)**
+3. **[ATtiny2313-based FabFTDI](fabftdi-tiny2313.md)**
    * speed up to 57600 bps (loopback)
    * uses V-USB library
 4. **[ATmega8-based FabFTDI](fabftdi-mega8.md)**

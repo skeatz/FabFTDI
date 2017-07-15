@@ -19,12 +19,6 @@ The FTDI-Vcc is 3.6V. This means that it can work directly with 3.3V-based syste
 
 ![FabFTDI-mega8 board layout](images/fabftdi-mega8-02.png)
 
-Mill and stuff the PCB.
-
-![FabFTDI board after milling](images/fabftdi-mega8-03.png)
-
-![FabFTDI board after stuffing](images/fabftdi-mega8-04.png)
-
 ![Fab modules - Board outline](images/fabftdi-mega8_outline.png)
 
 Fab modules board outline file
@@ -32,6 +26,12 @@ Fab modules board outline file
 ![Fab modules - Board traces](images/fabftdi-mega8_traces.png)
 
 Fab modules board traces
+
+Mill and stuff the PCB.
+
+![FabFTDI board after milling](images/fabftdi-mega8-03.png)
+
+![FabFTDI board after stuffing](images/fabftdi-mega8-04.png)
 
 ## Programming the Fab FTDI board
 
