@@ -78,6 +78,10 @@ Good luck and have fun with your FabFTDI board!
 
 [Eagle PCB layout](files/mega8/fabftdi-mega8.brd)
 
+[Updated Eagle Schematic (v1.1)](files/mega8/fabftdi-mega8_v1.1.sch)
+
+[Updated Eagle PCB layout (v1.1)](files/mega8/fabftdi-mega8_v1.1.brd)
+
 [FabFTDI-mega8 firmware (12MHz crystal)](files/mega8/cdcmega8.hex)
 
 [Firmware for ATmega328p (12MHz crystal)](files/mega8/cdcmega328p.hex)
