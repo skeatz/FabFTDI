@@ -25,6 +25,14 @@ Mill and stuff the PCB.
 
 ![FabFTDI board after stuffing](images/fabftdi-mega8-04.png)
 
+![Fab modules - Board outline](images/fabftdi-mega8_outline.png)
+
+Fab modules board outline file
+
+![Fab modules - Board traces](images/fabftdi-mega8_traces.png)
+
+Fab modules board traces
+
 ## Programming the Fab FTDI board
 
 Unlike the CH340g-based FabFTDI, the ATmega8-based FabFTDI board uses the V-USB software library to implement USB-to-TTL conversion, i.e. it has to be programmed with the correct firmware before it can be used.

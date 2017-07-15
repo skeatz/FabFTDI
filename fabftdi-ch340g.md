@@ -14,6 +14,15 @@ JP1 allows selection of 5V or 3.6V supply for FTDI interface
 
 ![FabFTDI-CH340g layout](images/fabftdi-ch340g-02.png)
 
+
+![Fab modules - Board Outline](images/fabftdi-ch340g_outline.png)
+
+Board outline file for fab modules
+
+![Fab modules - Board traces](images/fabftdi-ch340g_traces.png)
+
+Board traces file for fab modulles
+
 Mill and stuff the PCB.
 
 ![PCB after stuffing](images/fabftdi-ch340g-03.png)
@@ -49,6 +58,7 @@ Good luck and have fun with your FabFTDI board!
 [Eagle Schematic](files/ch340g/fabftdi-ch340g.sch)
 
 [Eagle PCB layout](files/ch340g/fabftdi-ch340g.brd)
+
 
 *Copyright (c) 2017-Steven Chew*
 
