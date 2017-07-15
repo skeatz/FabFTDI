@@ -5,7 +5,7 @@
 * tested up to:
   * 57600 bps on loopback
 * uses v-USB library
-  * AVR-CDE from [Recursion.jp](http://www.recursion.jp/prose/avrcdc/)
+  * AVR-CDC from [Recursion.jp](http://www.recursion.jp/prose/avrcdc/)
 
 ## Schematic & Board Layout
 
@@ -70,9 +70,9 @@ Good luck and have fun with your FabFTDI board!
 
 ## Files
 
-[Eagle Schematic](files/tiny2313/fabftdi-t2313.sch)
+[Eagle Schematic](files/tiny2313/fabftdi-tiny2313.sch)
 
-[Eagle PCB layout](files/tiny2313/fabftdi-t2313.brd)
+[Eagle PCB layout](files/tiny2313/fabftdi-tiny2313.brd)
 
 [FabFTDI-t2313 firmware (12MHz crystal)](files/tiny2313/cdc2313.hex)
 
