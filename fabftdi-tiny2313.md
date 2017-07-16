@@ -1,5 +1,4 @@
 ## FabFTDI - ATtiny2313
-
 * ATtiny2313-based Fab FTDI
 * hardware UART
 * tested up to:
@@ -8,7 +7,6 @@
   * AVR-CDC from [Recursion.jp](http://www.recursion.jp/prose/avrcdc/)
 
 ## Schematic & Board Layout
-
 ![Eagle schematic](images/fabftdi-t2313_01.png)
 
 I opted to use a 12 MHz crystal in my design because I had some handy (bought for my CH340g-based FabFTDI). Also, the ***compiled .hex file is for an ATtiny2313 with 12 MHz crystal.***. If you are using a different crystal oscillator, you will need to recompile the program from [source](http://www.recursion.jp/prose/avrcdc/download.html).
@@ -17,22 +15,28 @@ The FTDI Vcc is 3.6V, obtained by dropping the USB 5V through an LED. This means
 
 ![Eagle PCB layout](images/fabftdi-t2313_02.png)
 
-![Fab modules - board outline](images/fabftdi-t2313_outline.png)
+*FabFTDI-t2313 pcb layout*
 
-Fab modules - board outline
+Fab modules downloads:
 
-![Fab modules - board traces](images/fabftdi-t2313_traces.png)
-
-Fab modules - board traces
+* [Fab modules - board outline](images/fabftdi-t2313_outline.png)
+* [Fab modules - board traces](images/fabftdi-t2313_traces.png)
 
 Mill and stuff the PCB
 
-![FabFTDI board after milling](images/fabftdi-t2313_03.png)
-
 ![FabFTDI board after stuffing](images/fabftdi-t2313_04.png)
 
-## Programming the Fab FTDI board
+## Component List
+| Component | Component |
+| :-------- | :-------- |
+| 1 x ATtiny2313 | 1 x Mini-USB |
+| 1 x 12 MHz crystal | 1 x PinHD 2x3 ISP |
+| 1 x LED red | 1 x PinHD 1x6 FTDI |
+| 2 x 18pF capacitor | 1 x 0.1uF capacitor |
+| 2 x 10k ohm R | 1 x 1k5 ohm R |
+| 1 x 499 ohm R | 2 x 49 ohm R |
 
+## Programming the Fab FTDI board
 Unlike the CH340g-based FabFTDI, the ATmega8-based FabFTDI board uses the V-USB software library to implement USB-to-TTL conversion, i.e. it has to be programmed with the correct firmware before it can be used.
 
 You need both an ISP programmer like the [FabISP](http://docs.academany.org/FabAcademy-Tutorials/_book/en/week4_electronic_production/fabisp.html) and [avrdude](http://savannah.nongnu.org/projects/avrdude) to program the FabFTDI-mega8 board. Instructions for installing avrdude can be found in the Fab Academy [tutorials](http://docs.academany.org/FabAcademy-Tutorials/_book/en/week4_electronic_production/fabisp.html) page. If you are using a different speed crystal oscillator, you will need to re-compile the firmware from [source](http://www.recursion.jp/prose/avrcdc/download.html).
@@ -48,7 +52,6 @@ Flash the firmware onto the FabFTDI-t2313 board using avrdude:
 If you have managed to successfully flash the firmware onto the FabFTDI-t2313 board, give yourself a **pat** on the back. You are almost home.
 
 ## Testing the Board
-
 Plug the FabFTDI-t2313 board into your computer's USB port. Your computer should recognise the FabFTDI-t2313 board directly, as it implements the HIDinterface protocol.
 
 On Windows machines, look for the COMport under Control Panel > System > Device Manager. On Linux or OSX machines, type the commands:
@@ -69,17 +72,16 @@ As stated at the start of this tutorial, I have tested the FabFTDI-t2313 board u
 Good luck and have fun with your FabFTDI board!
 
 ## Files
+* [Eagle Schematic](files/tiny2313/fabftdi-tiny2313.sch)
 
-[Eagle Schematic](files/tiny2313/fabftdi-tiny2313.sch)
+* [Eagle PCB layout](files/tiny2313/fabftdi-tiny2313.brd)
 
-[Eagle PCB layout](files/tiny2313/fabftdi-tiny2313.brd)
+* [FabFTDI-t2313 firmware (12MHz crystal)](files/tiny2313/cdc2313.hex)
 
-[FabFTDI-t2313 firmware (12MHz crystal)](files/tiny2313/cdc2313.hex)
+* [FabFTDI-t2313 firmware (16MHz crystal)](files/tiny2313/cdc2313-16.hex)
 
-[FabFTDI-t2313 firmware (16MHz crystal)](files/tiny2313/cdc2313-16.hex)
+* [FabFTDI-t2313 firmware (20MHz crystal)](files/tiny2313/cdc2313-20.hex)
 
-[FabFTDI-t2313 firmware (20MHz crystal)](files/tiny2313/cdc2313-20.hex)
-
-*Copyright (c) Steven Chew*...
+*Copyright (c) 2017 Steven Chew*...
 
 *MIT license*

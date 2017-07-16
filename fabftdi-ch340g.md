@@ -7,28 +7,31 @@
 * RTS/CTS flow control
 
 ## Schematic & Board Layout
-
 ![FabFTDI-CH340g Schematic](images/fabftdi-ch340g-01.png)
 
 JP1 allows selection of 5V or 3.6V supply for FTDI interface
 
 ![FabFTDI-CH340g layout](images/fabftdi-ch340g-02.png)
 
-
-![Fab modules - Board Outline](images/fabftdi-ch340g_outline.png)
-
-Board outline file for fab modules
-
-![Fab modules - Board traces](images/fabftdi-ch340g_traces.png)
-
-Board traces file for fab modulles
-
 Mill and stuff the PCB.
 
 ![PCB after stuffing](images/fabftdi-ch340g-03.png)
 
-## Testing the Board
+Fab Modules downloads:
 
+* [Fab modules - Board Outline](images/fabftdi-ch340g_outline.png)
+* [Fab modules - Board traces](images/fabftdi-ch340g_traces.png)
+
+## Component List
+| Component           | Component    |
+| :--------           | :--------    |
+| 1 x CH340G          | 1 x Mini-USB |
+| 1 x 10uF  capacitor | 1 x PinHD 1x3|
+| 1 x 10nF capacitor  | 1 x PinHD 1x6|
+| 2 x 22pF capacitor  | 2 x Diodes 1N4148 |
+| 1 x 12MHz crystal   | 1 x 0 ohm R  |
+
+## Testing the Board
 Plug the FabFTDI-CH340g board into your computer's USB port. On a Windows machine, look for the COMport under Control Panel > System > Device Manager. You may need to install the CH340g driver. A signed driver can be downloaded here --> [CH340g driver](http://www.arduined.eu/files/CH341SER.zip). If you need help in installing the CH340g driver, you can refer to this [article](http://www.arduined.eu/ch340g-converter-windows-7-driver-download/).
 
 Linux PCs and MacBooks should be able to detect the FabFTDI board without any driver. To check the device port:
@@ -54,10 +57,9 @@ As stated at the start of this tutorial, I have tested the board up to 2 Mbps on
 Good luck and have fun with your FabFTDI board!
 
 ## Files
+* [Eagle Schematic](files/ch340g/fabftdi-ch340g.sch)
 
-[Eagle Schematic](files/ch340g/fabftdi-ch340g.sch)
-
-[Eagle PCB layout](files/ch340g/fabftdi-ch340g.brd)
+* [Eagle PCB layout](files/ch340g/fabftdi-ch340g.brd)
 
 
 *Copyright (c) 2017-Steven Chew*

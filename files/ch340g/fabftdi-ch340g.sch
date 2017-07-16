@@ -1221,11 +1221,11 @@ CH340G-based USB to serial adapter</text>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="U1" gate="G$1" x="144.78" y="91.44"/>
-<instance part="U$1" gate="G$1" x="213.36" y="99.06"/>
-<instance part="JP1" gate="A" x="78.74" y="127" rot="R90"/>
-<instance part="U$2" gate="G$1" x="43.18" y="93.98" rot="R180"/>
-<instance part="C1" gate="&gt;NAME" x="60.96" y="93.98" rot="R270"/>
-<instance part="C2" gate="&gt;NAME" x="81.28" y="93.98" rot="R270"/>
+<instance part="U$1" gate="G$1" x="190.5" y="99.06"/>
+<instance part="JP1" gate="A" x="91.44" y="127" rot="R90"/>
+<instance part="U$2" gate="G$1" x="55.88" y="93.98" rot="R180"/>
+<instance part="C1" gate="&gt;NAME" x="73.66" y="93.98" rot="R270"/>
+<instance part="C2" gate="&gt;NAME" x="93.98" y="93.98" rot="R270"/>
 <instance part="C3" gate="&gt;NAME" x="104.14" y="83.82" rot="R90"/>
 <instance part="C4" gate="&gt;NAME" x="114.3" y="83.82" rot="R90"/>
 <instance part="Y1" gate="G$1" x="109.22" y="88.9" smashed="yes" rot="R180">
@@ -1233,25 +1233,25 @@ CH340G-based USB to serial adapter</text>
 <attribute name="VALUE" x="112.522" y="92.964" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND1" gate="1" x="104.14" y="71.12"/>
-<instance part="GND2" gate="1" x="53.34" y="81.28"/>
+<instance part="GND2" gate="1" x="66.04" y="81.28"/>
 <instance part="GND3" gate="1" x="104.14" y="101.6" rot="MR90"/>
-<instance part="GND4" gate="1" x="190.5" y="111.76" rot="MR90"/>
+<instance part="GND4" gate="1" x="167.64" y="111.76" rot="MR90"/>
 <instance part="SUPPLY1" gate="G$1" x="124.46" y="106.68" rot="MR0"/>
 <instance part="SUPPLY2" gate="G$1" x="116.84" y="114.3" rot="MR0"/>
-<instance part="SUPPLY3" gate="G$1" x="203.2" y="106.68" rot="MR270"/>
-<instance part="D1" gate="G$1" x="68.58" y="106.68" smashed="yes" rot="MR180">
-<attribute name="NAME" x="67.31" y="104.1654" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="71.12" y="108.9914" size="1.778" layer="96" rot="MR180"/>
+<instance part="SUPPLY3" gate="G$1" x="180.34" y="106.68" rot="MR270"/>
+<instance part="D1" gate="G$1" x="81.28" y="106.68" smashed="yes" rot="MR180">
+<attribute name="NAME" x="80.01" y="104.1654" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="83.82" y="108.9914" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="D2" gate="G$1" x="76.2" y="106.68" smashed="yes" rot="MR180">
-<attribute name="NAME" x="74.93" y="104.4194" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="78.74" y="108.9914" size="1.778" layer="96" rot="MR180"/>
+<instance part="D2" gate="G$1" x="88.9" y="106.68" smashed="yes" rot="MR180">
+<attribute name="NAME" x="87.63" y="104.4194" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="91.44" y="108.9914" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="SUPPLY4" gate="G$1" x="50.8" y="116.84"/>
-<instance part="SUPPLY5" gate="G$1" x="91.44" y="121.92"/>
-<instance part="R1" gate="G$1" x="203.2" y="111.76" smashed="yes">
-<attribute name="NAME" x="199.39" y="113.2586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="205.486" y="113.538" size="1.778" layer="96"/>
+<instance part="SUPPLY4" gate="G$1" x="63.5" y="116.84"/>
+<instance part="SUPPLY5" gate="G$1" x="104.14" y="121.92"/>
+<instance part="R1" gate="G$1" x="180.34" y="111.76" smashed="yes">
+<attribute name="NAME" x="176.53" y="113.2586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="182.626" y="113.538" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -1286,17 +1286,17 @@ CH340G-based USB to serial adapter</text>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="45.72" y1="99.06" x2="53.34" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="99.06" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="99.06" x2="66.04" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="99.06" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="C2" gate="&gt;NAME" pin="2"/>
-<wire x1="53.34" y1="86.36" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="91.44" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="86.36" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
-<junction x="53.34" y="86.36"/>
+<wire x1="66.04" y1="86.36" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="91.44" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="86.36" x2="73.66" y2="86.36" width="0.1524" layer="91"/>
+<junction x="66.04" y="86.36"/>
 <pinref part="C1" gate="&gt;NAME" pin="2"/>
-<wire x1="60.96" y1="86.36" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="91.44" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
-<junction x="60.96" y="86.36"/>
+<wire x1="73.66" y1="86.36" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="91.44" x2="73.66" y2="86.36" width="0.1524" layer="91"/>
+<junction x="73.66" y="86.36"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
@@ -1306,7 +1306,7 @@ CH340G-based USB to serial adapter</text>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="198.12" y1="111.76" x2="193.04" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="111.76" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="&gt;NAME" pin="1"/>
@@ -1324,27 +1324,27 @@ CH340G-based USB to serial adapter</text>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
 <pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
-<wire x1="213.36" y1="106.68" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="106.68" x2="180.34" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
-<wire x1="78.74" y1="124.46" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="124.46" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
-<wire x1="78.74" y1="114.3" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="114.3" x2="91.44" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="114.3" x2="104.14" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="114.3" x2="104.14" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="71.12" y1="106.68" x2="73.66" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="106.68" x2="86.36" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="D-"/>
-<wire x1="45.72" y1="93.98" x2="50.8" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="93.98" x2="63.5" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="D-"/>
@@ -1355,7 +1355,7 @@ CH340G-based USB to serial adapter</text>
 <net name="D+" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="D+"/>
-<wire x1="45.72" y1="91.44" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="91.44" x2="63.5" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="D+"/>
@@ -1366,24 +1366,24 @@ CH340G-based USB to serial adapter</text>
 <net name="N$9" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="CTS#"/>
-<wire x1="160.02" y1="83.82" x2="193.04" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="83.82" x2="193.04" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="83.82" x2="170.18" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="CTS"/>
-<wire x1="193.04" y1="109.22" x2="213.36" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="109.22" x2="190.5" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="TXD"/>
 <pinref part="U$1" gate="G$1" pin="TXD"/>
-<wire x1="160.02" y1="104.14" x2="213.36" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="104.14" x2="190.5" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="RXD"/>
 <pinref part="U$1" gate="G$1" pin="RXD"/>
-<wire x1="160.02" y1="101.6" x2="213.36" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="101.6" x2="190.5" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -1392,7 +1392,7 @@ CH340G-based USB to serial adapter</text>
 <wire x1="160.02" y1="96.52" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="96.52" x2="165.1" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="RTS"/>
-<wire x1="165.1" y1="99.06" x2="213.36" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="99.06" x2="190.5" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -1404,14 +1404,14 @@ CH340G-based USB to serial adapter</text>
 <pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="C2" gate="&gt;NAME" pin="1"/>
 <wire x1="116.84" y1="109.22" x2="116.84" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="106.68" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="106.68" x2="81.28" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="106.68" x2="93.98" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="106.68" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="3"/>
-<wire x1="81.28" y1="124.46" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
-<junction x="81.28" y="106.68"/>
-<wire x1="81.28" y1="109.22" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="109.22" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
-<junction x="81.28" y="109.22"/>
+<wire x1="93.98" y1="124.46" x2="93.98" y2="109.22" width="0.1524" layer="91"/>
+<junction x="93.98" y="106.68"/>
+<wire x1="93.98" y1="109.22" x2="93.98" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="109.22" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
+<junction x="93.98" y="109.22"/>
 <junction x="116.84" y="109.22"/>
 </segment>
 </net>
@@ -1419,34 +1419,34 @@ CH340G-based USB to serial adapter</text>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VBUS"/>
 <pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
-<wire x1="45.72" y1="96.52" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="96.52" x2="50.8" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="96.52" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="96.52" x2="63.5" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="50.8" y1="106.68" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="106.68" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
-<junction x="50.8" y="106.68"/>
-<wire x1="60.96" y1="106.68" x2="50.8" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="106.68" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="106.68" x2="73.66" y2="106.68" width="0.1524" layer="91"/>
+<junction x="63.5" y="106.68"/>
+<wire x1="73.66" y1="106.68" x2="63.5" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="C1" gate="&gt;NAME" pin="1"/>
-<wire x1="60.96" y1="99.06" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
-<junction x="60.96" y="106.68"/>
+<wire x1="73.66" y1="99.06" x2="73.66" y2="106.68" width="0.1524" layer="91"/>
+<junction x="73.66" y="106.68"/>
 <pinref part="JP1" gate="A" pin="1"/>
-<wire x1="76.2" y1="124.46" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="114.3" x2="60.96" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="114.3" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="124.46" x2="88.9" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="114.3" x2="73.66" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="114.3" x2="73.66" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND'" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="208.28" y1="111.76" x2="210.82" y2="111.76" width="0.1524" layer="91"/>
-<label x="208.28" y="111.76" size="1.778" layer="95"/>
+<wire x1="185.42" y1="111.76" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
+<label x="185.42" y="111.76" size="1.778" layer="95"/>
 <pinref part="C4" gate="&gt;NAME" pin="1"/>
-<wire x1="210.82" y1="111.76" x2="213.36" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="111.76" x2="190.5" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="78.74" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="71.12" x2="210.82" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="71.12" x2="210.82" y2="111.76" width="0.1524" layer="91"/>
-<junction x="210.82" y="111.76"/>
+<wire x1="114.3" y1="71.12" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="71.12" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
+<junction x="187.96" y="111.76"/>
 </segment>
 </net>
 </nets>
