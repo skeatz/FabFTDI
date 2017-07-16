@@ -17,7 +17,7 @@ The FTDI-Vcc is 3.6V. This means that it can work directly with 3.3V-based syste
 
 ![FabFTDI-mega8 board layout](images/fabftdi-mega8-02.png)
 
-Fab modules downloads:
+Fab modules downloads (1269dpi):
 * [Fab modules - Board outline](images/fabftdi-mega8_outline.png)
 * [Fab modules - Board traces](images/fabftdi-mega8_traces.png)
 

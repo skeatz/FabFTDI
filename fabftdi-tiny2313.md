@@ -17,7 +17,7 @@ The FTDI Vcc is 3.6V, obtained by dropping the USB 5V through an LED. This means
 
 *FabFTDI-t2313 pcb layout*
 
-Fab modules downloads:
+Fab modules downloads (1269dpi):
 
 * [Fab modules - board outline](images/fabftdi-t2313_outline.png)
 * [Fab modules - board traces](images/fabftdi-t2313_traces.png)

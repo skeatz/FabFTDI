@@ -1,5 +1,4 @@
 ## Fab FTDI (CH340g)
-
 * CH340g-based Fab FTDI
 * tested up to:
   * 2 Mbps on loopback
@@ -17,7 +16,7 @@ Mill and stuff the PCB.
 
 ![PCB after stuffing](images/fabftdi-ch340g-03.png)
 
-Fab Modules downloads:
+Fab Modules downloads (1269dpi):
 
 * [Fab modules - Board Outline](images/fabftdi-ch340g_outline.png)
 * [Fab modules - Board traces](images/fabftdi-ch340g_traces.png)
