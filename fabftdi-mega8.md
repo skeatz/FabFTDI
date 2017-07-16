@@ -23,8 +23,6 @@ Fab modules downloads:
 
 Mill and stuff the PCB.
 
-![FabFTDI board after milling](images/fabftdi-mega8-03.png)
-
 ![FabFTDI board after stuffing](images/fabftdi-mega8-04.png)
 
 ## Component List
